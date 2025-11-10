@@ -39,3 +39,43 @@ body{
   margin: 24px;
   line-height: 1.6;
 }
+
+.lotr-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+  justify-items: center;
+}
+
+
+.lotr-card {
+  flex: 0 1 236px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: rgba(20, 20, 30, 0.85);
+  padding: 18px;
+  background-color: #3b6b48;
+  border-radius: 15px;
+  border: 1px solid rgba(200,155,45,0.14);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 1s ease;
+}
+
+.lotr-card p {
+  margin: 5px 0;
+  color: rgb(188, 188, 188);
+}
+
+
+.lotr-card img {
+  width: 100%;
+  height: 65%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+#p_text {
+  color: rgb(188, 188, 188);
+}
